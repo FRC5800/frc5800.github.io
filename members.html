@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>FRC 5800 &mdash; Magic Island Robotics Team</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+
+	<!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	Adapted by: 	Gustavo Simas da Silva
+	Group: 			FRC 5800 - Magic Island Robotics Team
+
+	//////////////////////////////////////////////////////
+	 -->
+
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="mainpage/css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="mainpage/css/icomoon.css">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="mainpage/css/simple-line-icons.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="mainpage/css/magnific-popup.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="mainpage/css/bootstrap.css">
+	<!-- Icons8  -->
+	<link rel="stylesheet" href="mainpage/css/icons8.css">
+
+	<!-- 
+	Default Theme Style 
+	You can change the style.css (default color purple) to one of these styles
+	
+	1. pink.css
+	2. blue.css
+	3. turquoise.css
+	4. orange.css
+	5. lightblue.css
+	6. brown.css
+	7. green.css
+
+	-->
+	<link rel="stylesheet" href="mainpage/css/style.css">
+
+	<!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
+	<link rel="stylesheet" id="theme-switch" href="mainpage/css/style.css">
+	<!-- End demo purposes only -->
+
+
+	<style>
+		/* For demo purpose only */
+		/* For Demo Purposes Only ( You can delete this anytime :-) */
+
+		#colour-variations {
+			padding: 10px;
+			-webkit-transition: 0.5s;
+			-o-transition: 0.5s;
+			transition: 0.5s;
+			width: 140px;
+			position: fixed;
+			left: 0;
+			top: 100px;
+			z-index: 999999;
+			background: #fff;
+			/*border-radius: 4px;*/
+			border-top-right-radius: 4px;
+			border-bottom-right-radius: 4px;
+			-webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+			-moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+			-ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+			box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+		}
+
+		#colour-variations.sleep {
+			margin-left: -140px;
+		}
+
+		#colour-variations h3 {
+			text-align: center;
+			;
+			font-size: 11px;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			color: #777;
+			margin: 0 0 10px 0;
+			padding: 0;
+			;
+		}
+
+		#colour-variations ul,
+		#colour-variations ul li {
+			padding: 0;
+			margin: 0;
+		}
+
+		#colour-variations li {
+			list-style: none;
+			display: block;
+			margin-bottom: 5px!important;
+			float: left;
+			width: 100%;
+		}
+
+		#colour-variations li a {
+			width: 100%;
+			position: relative;
+			display: block;
+			overflow: hidden;
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			-ms-border-radius: 4px;
+			border-radius: 4px;
+			-webkit-transition: 0.4s;
+			-o-transition: 0.4s;
+			transition: 0.4s;
+		}
+
+		#colour-variations li a:hover {
+			opacity: .9;
+		}
+
+		#colour-variations li a>span {
+			width: 33.33%;
+			height: 20px;
+			float: left;
+			display: -moz-inline-stack;
+			display: inline-block;
+			zoom: 1;
+			*display: inline;
+		}
+
+
+		.option-toggle {
+			position: absolute;
+			right: 0;
+			top: 0;
+			margin-top: 5px;
+			margin-right: -30px;
+			width: 30px;
+			height: 30px;
+			background: #f64662;
+			text-align: center;
+			border-top-right-radius: 4px;
+			border-bottom-right-radius: 4px;
+			color: #fff;
+			cursor: pointer;
+			-webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+			-moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+			-ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+			box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+		}
+
+		.option-toggle i {
+			top: 2px;
+			position: relative;
+		}
+
+		.option-toggle:hover,
+		.option-toggle:focus,
+		.option-toggle:active {
+			color: #fff;
+			text-decoration: none;
+			outline: none;
+		}
+	</style>
+	<!-- End demo purposes only -->
+
+
+	<!-- Modernizr JS -->
+	<script src="mainpage/js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<header role="banner" id="fh5co-header">
+		<div class="container">
+			<!-- <div class="row"> -->
+			<nav class="navbar navbar-default">
+				<div class="navbar-header">
+					<!-- Mobile Toggle Menu Button -->
+					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+					 aria-controls="navbar"><i></i></a>
+					<a class="navbar-brand" href="index.html">FRC 5800</a>
+					<a class="navbar-brand2" href="index_en.html"><i class="icon-language"></i></a>
+                    <a class="navbar-brand2" href="http://facebook.com/mi5800" target="_blank"><i class="icon-facebook"></i></a>
+                    <a class="navbar-brand2" href="http://instagram.com/frc5800" target="_blank"><i class="icon-instagram"></i></a>
+                    <a class="navbar-brand2" href="https://www.linkedin.com/company-beta/16275106/" target="_blank"><i class="icon-linkedin"></i></a>
+                    <a class="navbar-brand2" href="http://github.com/frc5800" target="_blank"><i class="icon-github"></i></a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.html" data-nav-section="home"><span>Início</span></a></li>
+						<li class="active"><a href="#" data-nav-section="members"><span>Integrantes</span></a></li>
+                        <li><a href="#" data-nav-section="data"><span>Dados</span></a></li>
+						<li><a href="#" data-nav-section="contact"><span>Contato</span></a></li>
+					</ul>
+				</div>
+			</nav>
+			<!-- </div> -->
+		</div>
+	</header>
+
+	<section id="fh5co-home" data-section="home" style="background-image: url(mainpage/images/back2.JPG);" data-stellar-background-ratio="0.5">
+		<div class="gradient"></div>
+		<div class="container">
+			<div class="text-wrap">
+				<div class="text-inner">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<h1 class="to-animate">Integrantes</h1>
+							<h2 class="to-animate"><a href="index.html">FRC 5800 - Magic Island Robotics</a> <br>Florianópolis, Santa Catarina, Brasil</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slant"></div>
+	</section>
+
+	<section id="fh5co-about" data-section="members">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Mentores</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>Pessoas Fantásticas e onde habitam</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/jeser.png" alt="Image"></figure>
+						<h3>Jeser Becker</h3>
+						<span class="fh5co-position">Mentor Honorário</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://pt-br.facebook.com/asaph.becker"><i class="icon-facebook"></i></a></li>
+							<li><a href="mailto:asaphfirst@hotmail.com"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/daiane.png" alt="Image"></figure>
+						<h3>Daiane Becker</h3>
+						<span class="fh5co-position">Mentora Honorária</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://pt-br.facebook.com/asaph.becker"><i class="icon-facebook"></i></a></li>
+							<li><a href="mailto:asaphfirst@hotmail.com"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/asaph.png" alt="Image"></figure>
+						<h3>Asaph Becker</h3>
+						<span class="fh5co-position">Coordenador</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://pt-br.facebook.com/asaph.becker"><i class="icon-facebook"></i></a></li>
+							<li><a href="mailto:asaphfirst@hotmail.com"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<br>
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/lauro.png" alt="Image"></figure>
+						<h3>Lauro Schlemper</h3>
+						<span class="fh5co-position">Eletrônica</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://www.facebook.com/LauroIlson"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://www.instagram.com/lauroilson/"><i class="icon-instagram"></i></a></li>
+							<li><a href="https://www.youtube.com/user/lauro1478"><i class="icon-youtube"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<br>
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/elizeu.png" alt="Image"></figure>
+						<h3>Elizeu Souza</h3>
+						<span class="fh5co-position">Mecânica</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://www.facebook.com/elizeu.souza.507"><i class="icon-facebook"></i></a></li>
+							<li><a href="mailto:kolizeu@hotmail.com"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<br>
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/simas.png" alt="Image"></figure>
+						<h3>Gustavo Simas</h3>
+						<span class="fh5co-position">Marketing</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="http://facebook.com/simasgs"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://github.com/GSimas"><i class="icon-github"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/gssilva/"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<br>
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/gabriel.png" alt="Image"></figure>
+						<h3>Gabriel Bolgenhagen</h3>
+						<span class="fh5co-position">Mecânica</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://www.facebook.com/GabrielSchoninger"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://twitter.com/gabschoninger"><i class="icon-twitter"></i></a></li>
+							<li><a href="https://www.youtube.com/user/MrSchoninger"><i class="icon-youtube"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<br>
+					<div align="center" class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/wayne.png" alt="Image"></figure>
+						<h3>Wayne Albuquerque</h3>
+						<span class="fh5co-position">Mecânica</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://pt-br.facebook.com/wayne.albuquerque.9"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://github.com/WayneAlbuquerque?Subject=Hello%20again"><i class="icon-github"></i></a></li>
+							<li><a href="mailto:waynealbuquerque17@gmail.com"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<br>
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/person2.jpg" alt="Image"></figure>
+						<h3>André Corrêa</h3>
+						<span class="fh5co-position">Programação</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://www.facebook.com/nscorrea"><i class="icon-facebook"></i></a></li>
+							<li><a href="andrencs93@hotmail.com"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<br>
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/leticiam.png" alt="Image"></figure>
+						<h3>Letícia Martins</h3>
+						<span class="fh5co-position">Mecânica</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://www.facebook.com/leticia.martins.5205622"><i class="icon-facebook"></i></a></li>
+							<li><a href="mailto:kolizeu@hotmail.com"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<br><br>
+					<h2 class="to-animate">Alunos</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>Ferozes e Valiosos</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/andred.png" alt="Image"></figure>
+						<h3>André Duarte</h3>
+						<span class="fh5co-position">Eletrônica</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://pt-br.facebook.com/asaph.becker"><i class="icon-facebook"></i></a></li>
+							<li><a href="mailto:asaphfirst@hotmail.com"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/cipriano.png" alt="Image"></figure>
+						<h3>Bruno Cipriano</h3>
+						<span class="fh5co-position">Mecânica</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://www.facebook.com/LauroIlson"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://www.instagram.com/lauroilson/"><i class="icon-instagram"></i></a></li>
+							<li><a href="https://www.youtube.com/user/lauro1478"><i class="icon-youtube"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/eduarda.png" alt="Image"></figure>
+						<h3>Eduarda Mendonça</h3>
+						<span class="fh5co-position">Marketing</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://www.facebook.com/elizeu.souza.507"><i class="icon-facebook"></i></a></li>
+							<li><a href="mailto:kolizeu@hotmail.com"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<br>
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/giovanni.png" alt="Image"></figure>
+						<h3>Giovanni Sonaglio</h3>
+						<span class="fh5co-position">Programação</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="http://facebook.com/simasgs"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://github.com/GSimas"><i class="icon-github"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/gssilva/"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<br>
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/helena.png" alt="Image"></figure>
+						<h3>Helena Fontes</h3>
+						<span class="fh5co-position">Marketing</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://www.facebook.com/GabrielSchoninger"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://twitter.com/gabschoninger"><i class="icon-twitter"></i></a></li>
+							<li><a href="https://www.youtube.com/user/MrSchoninger"><i class="icon-youtube"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<br>
+					<div align="center" class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/joao.png" alt="Image"></figure>
+						<h3>João Volpato</h3>
+						<span class="fh5co-position">Eletrônica</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://pt-br.facebook.com/wayne.albuquerque.9"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://github.com/WayneAlbuquerque?Subject=Hello%20again"><i class="icon-github"></i></a></li>
+							<li><a href="mailto:waynealbuquerque17@gmail.com"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<br>
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/leticiar.png" alt="Image"></figure>
+						<h3>Letícia Radetski</h3>
+						<span class="fh5co-position">Marketing</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://www.facebook.com/nscorrea"><i class="icon-facebook"></i></a></li>
+							<li><a href="andrencs93@hotmail.com"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<br>
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/marcos.png" alt="Image"></figure>
+						<h3>Marcos Muller</h3>
+						<span class="fh5co-position">Eletrônica</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://www.facebook.com/leticia.martins.5205622"><i class="icon-facebook"></i></a></li>
+							<li><a href="mailto:kolizeu@hotmail.com"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<br>
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/sampaio.png" alt="Image"></figure>
+						<h3>Mateus Sampaio</h3>
+						<span class="fh5co-position">Mecânica</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://pt-br.facebook.com/asaph.becker"><i class="icon-facebook"></i></a></li>
+							<li><a href="mailto:asaphfirst@hotmail.com"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<br>
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/mathias.png" alt="Image"></figure>
+						<h3>Mathias Nichele</h3>
+						<span class="fh5co-position">Mecânica</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://www.facebook.com/nscorrea"><i class="icon-facebook"></i></a></li>
+							<li><a href="andrencs93@hotmail.com"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<br>
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/natan.png" alt="Image"></figure>
+						<h3>Natan Coelho</h3>
+						<span class="fh5co-position">Mecânica</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://www.facebook.com/nscorrea"><i class="icon-facebook"></i></a></li>
+							<li><a href="andrencs93@hotmail.com"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<br>
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/pedro.png" alt="Image"></figure>
+						<h3>Pedro Gonzaga</h3>
+						<span class="fh5co-position">Marketing</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://www.facebook.com/nscorrea"><i class="icon-facebook"></i></a></li>
+							<li><a href="andrencs93@hotmail.com"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<br>
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="mainpage/images/members/prim.png" alt="Image"></figure>
+						<h3>Thiago Prim</h3>
+						<span class="fh5co-position">Programação</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="https://www.facebook.com/nscorrea"><i class="icon-facebook"></i></a></li>
+							<li><a href="andrencs93@hotmail.com"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="fh5co-work" data-section="sponsor">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Patrocinadores e Apoiadores</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>Pessoas que deixam as coisas mais possíveis</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-sm">
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="http://www.3m.com.br" target="_blank" class="fh5co-project-item to-animate">
+						<img src="mainpage/images/sponsors/3m-logo.jpg" alt="Image" class="img-responsive">
+						<div align="center" class="fh5co-text">
+						<h2>3M Company</h2>
+						<span>Patrocinador Principal</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="http://www.florianopolis.ifsc.edu.br" target="_blank" class="fh5co-project-item to-animate">
+						<img src="mainpage/images/sponsors/ifsc-logo.jpg" alt="Image" class="img-responsive">
+						<div align="center" class="fh5co-text">
+						<h2>IFSC Campus Florianópolis</h2>
+						<span>Apoiador</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="clearfix visible-sm-block"></div>
+
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="http://www.metalportometalurgica.com.br" target="_blank" class="fh5co-project-item to-animate">
+						<img src="mainpage/images/sponsors/metalportologo.png" alt="Image" class="img-responsive">
+						<div align="center" class="fh5co-text">
+						<h2>Metalporto Metalúrgica Ltda</h2>
+						<span>Patrocinador</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="http://www.harleydavidsonfloripa.com.br/" target="_blank" class="fh5co-project-item to-animate">
+						<img src="mainpage/images/sponsors/harleydavidsonlogo.jpg" alt="Image" class="img-responsive">
+						<div align="center" class="fh5co-text">
+						<h2>Floripa Harley-Davison</h2>
+						<span>Patrocinador</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="clearfix visible-sm-block"></div>
+
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="https://www.linkedin.com/in/clarissa-delias-a2837717/" target="_blank" class="fh5co-project-item to-animate">
+						<img src="mainpage/images/sponsors/clarissadelias-logo.png" alt="Image" class="img-responsive">
+						<div align="center" class="fh5co-text">
+						<h2>Clarissa Delias</h2>
+						<span>Patrocinadora</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="http://www.ataliba.com.br/" target="_blank" class="fh5co-project-item to-animate">
+						<img src="mainpage/images/sponsors/ataliba-logo.jpg" alt="Image" class="img-responsive">
+						<div align="center" class="fh5co-text">
+						<h2>Ataliba Restaurantes</h2>
+						<span>Patrocinador</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="clearfix visible-sm-block"></div>
+
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="https://www.gfximpressaodigital.com/" target="_blank" class="fh5co-project-item to-animate">
+						<img src="mainpage/images/sponsors/gfx-logo.png" alt="Image" class="img-responsive">
+						<div align="center" class="fh5co-text">
+						<h2>GFX Impressões Digitais</h2>
+						<span>Apoiador</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="http://facebook.com/saboresalsa" target="_blank" class="fh5co-project-item to-animate">
+						<img src="mainpage/images/sponsors/maisnatural-logo.png" alt="Image" class="img-responsive">
+						<div align="center" class="fh5co-text">
+						<h2>Joffrãn da Silva - Mais Natural</h2>
+						<span>Patrocinador</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="clearfix visible-sm-block"></div>
+
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="http://www.brindestar.com.br/" target="_blank" class="fh5co-project-item to-animate">
+						<img src="mainpage/images/sponsors/brindestar-logo.jpg" alt="Image" class="img-responsive">
+						<div align="center" class="fh5co-text">
+						<h2>Brindestar</h2>
+						<span>Patrocinador</span>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center to-animate">
+					<p>* Projetos em andamento</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="fh5co-counters" data-section="data" style="background-image: url(mainpage/images/full_image_1.jpg);" data-stellar-background-ratio="0.5">
+		<div class="fh5co-overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center to-animate">
+					<h2>Números Interessantes</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-wrench to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="3" data-speed="5000" data-refresh-interval="50">3</span>
+						<span class="fh5co-counter-label">Robôs construídos</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-people to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="24" data-speed="5000" data-refresh-interval="50">18</span>
+						<span class="fh5co-counter-label">Integrantes</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-code to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="7409" data-speed="5000" data-refresh-interval="50">7409</span>
+						<span class="fh5co-counter-label">Linhas de código</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-cup to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="132" data-speed="5000" data-refresh-interval="50">132</span>
+						<span class="fh5co-counter-label">Copos de café</span>
+					</div>
+				</div>
+				<br><br><br><br><br><br><br><br>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-plane to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="4" data-speed="5000" data-refresh-interval="50">18</span>
+						<span class="fh5co-counter-label">Competições</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-arrow-up2 to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="25" data-speed="5000" data-refresh-interval="50">18</span>
+						<span class="fh5co-counter-label">Habilidades Melhoradas</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-clock to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="2380" data-speed="5000" data-refresh-interval="50">18</span>
+						<span class="fh5co-counter-label">Horas de Trabalho</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-globe to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="1658" data-speed="5000" data-refresh-interval="50">18</span>
+						<span class="fh5co-counter-label">Seguidores</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<br><br><br><br><span class="fh5co-counter-label"><font color="grey">* Valores Aproximados</font></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<section id="fh5co-contact" data-section="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Fale com a gente</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>Quer conhecer mais sobre a equipe? Pensando em ser um integrante? <br> Conversar sobre formas de apoio ou patrocínio?
+								<br>Entre em contato pelos meios abaixo</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-md">
+				<div class="col-md-6 to-animate">
+					<h3>Informação de Contato</h3>
+					<ul class="fh5co-contact-info">
+						<li class="fh5co-contact-address ">
+							<i class="icon-home"></i> IFSC Campus Florianopolis <br>Av. Mauro Ramos, 950 - Centro<br>Florianopolis - SC, CEP 88020-300
+						</li>
+						<li><i class="icon-phone"></i> +55 (48) 984253457</li>
+						<li><i class="icon-envelope"></i>magicislandbrasil@gmail.com</li>
+						<li><i class="icon-globe"></i> <a href="http://mi5800.wordpress.com" target="_blank">Magic Island Robotics Website</a><br>
+							<a href="http://facebook.com/mi5800">Magic Island Facebook</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-md-6 to-animate">
+					<h3>Contato</h3>
+					<form method="post" action="mailto:gustavosimassilva@gmail.com" enctype="text/plain">
+						<div class="form-group ">
+							<label for="name" class="sr-only">Nome</label>
+							<input name="name" id="name" class="form-control" placeholder="Nome" type="text">
+						</div>
+						<div class="form-group ">
+							<label for="email" class="sr-only">Email</label>
+							<input name="email" id="email" class="form-control" placeholder="Email" type="email">
+						</div>
+						<div class="form-group ">
+							<label for="phone" class="sr-only">Fone</label>
+							<input name="phone" id="phone" class="form-control" placeholder="Fone" type="text">
+						</div>
+						<div class="form-group ">
+							<label for="message" class="sr-only">Mensagem</label>
+							<textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Mensagem"></textarea>
+						</div>
+						<div class="form-group ">
+							<input class="btn btn-primary btn-lg" value="Enviar" type="submit">
+						</div>
+					</form>
+				</div>
+
+			</div>
+
+		</div>
+		</div>
+		<div id="map" class="to-animate"></div>
+	</section>
+
+
+	<footer id="footer" role="contentinfo">
+		<a href="#" class="gotop js-gotop"><i class="icon-arrow-up2"></i></a>
+		<div class="container">
+			<div class="">
+				<div class="col-md-12 text-center">
+					<p>FRC 5800 Magic Island Robotics Team</p>
+					<p> &copy; FRC 5800. Todos os Direitos Reservados. <br>Template por <a href="http://freehtml5.co/" target="_blank">FreeHTML5</a>						Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a>
+						<br>Adaptado por <a href="gsimas.github.io">Gustavo Simas</a></p>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<ul class="social social-circle">
+						<li><a href="http://instagram.com/frc5800"><i class="icon-instagram"></i></a></li>
+						<li><a href="http://facebook.com/mi5800"><i class="icon-facebook"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UCAnewK-DV-rgF4bJnpuJH1Q"><i class="icon-youtube"></i></a></li>
+						<li><a href="https://www.linkedin.com/company-beta/16275106/"><i class="icon-linkedin"></i></a></li>
+						<li><a href="https://github.com/FRC5800"><i class="icon-github"></i></a></li>
+						<li><a href="index_en.html"><i class="icon-language"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- For demo purposes Only ( You may delete this anytime :-) -->
+	<!-- End demo purposes only -->
+
+
+	<!-- jQuery -->
+	<script src="mainpage/js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="mainpage/js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="mainpage/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="mainpage/js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="mainpage/js/jquery.stellar.min.js"></script>
+	<!-- Counter -->
+	<script src="mainpage/js/jquery.countTo.js"></script>
+	<!-- Magnific Popup -->
+	<script src="mainpage/js/jquery.magnific-popup.min.js"></script>
+	<script src="mainpage/js/magnific-popup-options.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="mainpage/js/google_map.js"></script>
+
+	<!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
+	<script src="mainpage/js/jquery.style.switcher.js"></script>
+	<script>
+		$(function () {
+			$('#colour-variations ul').styleSwitcher({
+				defaultThemeId: 'theme-switch',
+				hasPreview: false,
+				cookie: {
+					expires: 30,
+					isManagingLoad: true
+				}
+			});
+			$('.option-toggle').click(function () {
+				$('#colour-variations').toggleClass('sleep');
+			});
+		});
+	</script>
+	<!-- End demo purposes only -->
+
+	<!-- Main JS (Do not remove) -->
+	<script src="mainpage/js/main.js"></script>
+
+</body>
+
+</html>

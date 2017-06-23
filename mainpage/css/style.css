@@ -216,6 +216,9 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-header .navbar-brand {
     color: #52d3aa !important;
   }
+   #fh5co-header .navbar-brand2 {
+    color: #52d3aa;
+  }
   #fh5co-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
     -webkit-transition: 0.3s;
@@ -304,6 +307,16 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0;
   color: #fff;
 }
+#fh5co-header .navbar-brand2 {
+  float: left;
+  display: block;
+  opacity: 1;
+  font-size: 25px;
+  font-weight: 700;
+  padding-left: 20px;
+  color: #fff;
+  margin-top: 15px
+}
 #fh5co-header.navbar-fixed-top {
   position: fixed !important;
   background: #fff;
@@ -315,6 +328,9 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 #fh5co-header.navbar-fixed-top .navbar-brand {
+  color: #52d3aa;
+}
+#fh5co-header.navbar-fixed-top .navbar-brand2 {
   color: #52d3aa;
 }
 #fh5co-header.navbar-fixed-top #navbar li a {
@@ -478,7 +494,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-intro .fh5co-block {
   width: 33.33%;
-  float: left;
+  float: right;
   text-align: center;
   font-size: 16px;
   min-height: 300px;
@@ -494,7 +510,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-grow: 1;
   background-size: cover;
   position: relative;
-  backgroun-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro .fh5co-block {
