@@ -3,7 +3,7 @@
 
 Repositório para criação de página da equipe **FRC 5800 Magic Island Robotics no Github**. Página de apresentação, animações em css, javascript, blog, página de contato e formulário. Site responsivo.
 
-##Tarefas:
+## Tarefas:
 
 - ~~Escolher Template~~
 - ~~Estruturar página inicial~~
@@ -19,7 +19,7 @@ Desenvolvido com MS Visual Code e templates de [FreeHTML5.co](http://freehtml5.c
 
 Linguagens: HTML, CSS, JavaScript.
 
-##Páginas oficiais:
+## Páginas oficiais:
 
 - [Magic Island Robotics Website](http://mi5800.wordpress.com)
 - [FRC 5800 Weebly](http://mi5800.weebly.com)
@@ -33,7 +33,7 @@ Versão Pré-Alpha (0.0.1)
 
 Repository for **FRC 5800 Magic Island Robotics Team Webpage on Github**. Presentation page, css animations, javascript codes, blog, contact page and form. Responsite website.
 
-##To do:
+## To do:
 
 - ~~Choose Template~~
 - ~~Index Structure~~
@@ -49,7 +49,7 @@ Developed on Microsoft Visual Code. Templates from [FreeHTML5.co](http://freehtm
 
 Languages: HTML, CSS, JavaScript
 
-##Official Pages:
+## Official Pages:
 
 - [Magic Island Robotics Website](http://mi5800.wordpress.com)
 - [FRC 5800 Weebly](http://mi5800.weebly.com)
@@ -58,3 +58,5 @@ Languages: HTML, CSS, JavaScript
 - Snapchat: @mi5800
 
 Pre-Alpha version (0.0.1)
+
+![](https://mi5800.files.wordpress.com/2016/12/mi5800-logo-2017_semfundo.png?w=250)      ![](https://www.firstinspires.org/sites/default/files/first-logo-200px.png)
