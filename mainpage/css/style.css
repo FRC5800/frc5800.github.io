@@ -695,6 +695,18 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+.bg_video{
+ position: fixed; 
+ right: 0; 
+ bottom: 0;
+ min-width: 100%; 
+ min-height: 100%;
+ width: auto; 
+ height: auto; 
+ z-index: -1000;
+ background: url(images/torre.jpg) no-repeat;
+ background-size: cover; 
+}
 .watch-video .btn-video:hover, .watch-video .btn-video:focus, .watch-video .btn-video:active {
   text-decoration: none;
 }
@@ -717,11 +729,11 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.1);
 }
 
-#fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {
+#fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-about2 {
   padding: 4em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {
+  #fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-about2 {
     padding: 2em 0;
   }
 }
@@ -1369,7 +1381,8 @@ h1, h2, h3, h4, h5, h6 {
   background: #1E90FF;
 }
 .btn:hover, .btn:active, .btn:focus {
-  background: #393e46 !important;
+  background: transparent !important;
+  opacity: 0.6;
   color: #fff;
   outline: none !important;
 }
