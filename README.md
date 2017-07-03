@@ -8,10 +8,14 @@ Repositório para criação de página da equipe **FRC 5800 Magic Island Robotic
 - ~~Escolher Template~~
 - ~~Estruturar página inicial~~
 - ~~Adicionar Imagens e plano de fundo~~
-- Página de Integrantes e Patrocinadores
+- Texto página de Integrantes
+- Barra de progresso integrantes
+- Texto e imagens atividades
+- ~~Página de Patrocinadores~~
 - Consertar ícone de mapa
 - Formulário de Contato (php, cgi ou asp)
 - Página em Inglês
+- Números interessantes reais (funções get, facebook api, etc.)
 - Testes, análise em plataformas desktop e mobile
 - Lançar Website
 
@@ -38,10 +42,14 @@ Repository for **FRC 5800 Magic Island Robotics Team Webpage on Github**. Presen
 - ~~Choose Template~~
 - ~~Index Structure~~
 - ~~Add Images and background~~
-- Members and Sponsors page
+- Members page
+- Members progress bar
+- Text and image on Work
+- ~~Sponsors page~~
 - Fix map icon
 - Contact form (php, cgi or asp)
 - English page
+- Real interesting numbers (get function, facebook api, etc.)
 - Tests, analysis on desktop and mobile platforms
 - Launch
 
