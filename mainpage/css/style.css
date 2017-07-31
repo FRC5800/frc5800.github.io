@@ -1381,9 +1381,8 @@ h1, h2, h3, h4, h5, h6 {
   background: #1E90FF;
 }
 .btn:hover, .btn:active, .btn:focus {
-  background: transparent !important;
+  background: #1E90FF !important;
   opacity: 0.6;
-  color: #fff;
   outline: none !important;
 }
 .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
