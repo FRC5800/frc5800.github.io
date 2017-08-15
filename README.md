@@ -8,20 +8,20 @@ Repositório para criação de página da equipe **FRC 5800 Magic Island Robotic
 - ~~Escolher Template~~
 - ~~Estruturar página inicial~~
 - ~~Adicionar Imagens e plano de fundo~~
-- Texto página de Integrantes
-- Barra de progresso integrantes
+- ~~Texto página de Integrantes~~
+- Barra de progresso integrantes (analisar necessidade)
 - Texto e imagens atividades
 - ~~Página de Patrocinadores~~
 - Consertar ícone de mapa
 - Formulário de Contato (php, cgi ou asp)
-- Página em Inglês
+- ~~Página em Inglês~~
 - Números interessantes reais (funções get, facebook api, etc.)
 - Testes, análise em plataformas desktop e mobile
 - Lançar Website
 
 Desenvolvido com MS Visual Code e templates de [FreeHTML5.co](http://freehtml5.co).
 
-Linguagens: HTML, CSS, JavaScript.
+Linguagens de programação e marcação: HTML, CSS, JavaScript, PHP, Markdown.
 
 ## Páginas oficiais:
 
@@ -31,7 +31,7 @@ Linguagens: HTML, CSS, JavaScript.
 - [Instagram FRC 5800](http://instagram.com/frc5800)
 - Snapchat: @mi5800
 
-Versão Pré-Alpha (0.0.1)
+Versão Beta (0.2)
 
 # FRC 5800 Github Webpage
 
@@ -42,20 +42,20 @@ Repository for **FRC 5800 Magic Island Robotics Team Webpage on Github**. Presen
 - ~~Choose Template~~
 - ~~Index Structure~~
 - ~~Add Images and background~~
-- Members page
+- ~~Members page~~
 - Members progress bar
 - Text and image on Work
 - ~~Sponsors page~~
 - Fix map icon
 - Contact form (php, cgi or asp)
-- English page
+- ~~English page~~
 - Real interesting numbers (get function, facebook api, etc.)
 - Tests, analysis on desktop and mobile platforms
 - Launch
 
 Developed on Microsoft Visual Code. Templates from [FreeHTML5.co](http://freehtml5.co).
 
-Languages: HTML, CSS, JavaScript
+Programming and markup languages: HTML, CSS, JavaScript, PHP, Markdown
 
 ## Official Pages:
 
@@ -65,6 +65,6 @@ Languages: HTML, CSS, JavaScript
 - [Instagram FRC 5800](http://instagram.com/frc5800)
 - Snapchat: @mi5800
 
-Pre-Alpha version (0.0.1)
+Beta version (0.2)
 
 ![](https://mi5800.files.wordpress.com/2016/12/mi5800-logo-2017_semfundo.png?w=250)      ![](https://www.firstinspires.org/sites/default/files/first-logo-200px.png)
