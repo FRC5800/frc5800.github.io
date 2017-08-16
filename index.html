@@ -62,7 +62,7 @@
 	<link rel="stylesheet" href="mainpage/css/icons8.css">
 	<!-- Cards -->
 	<link rel="stylesheet" href="mainpage/css/cards.css">
-	
+
 	<!--Let browser know website is optimized for mobile-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -84,7 +84,7 @@
 	<!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
 	<link rel="stylesheet" id="theme-switch" href="mainpage/css/style.css">
 
-	
+
 	<!-- End demo purposes only -->
 
 
@@ -255,7 +255,9 @@
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
 							<h1 class="to-animate">FRC 5800 Magic Island Robotics</h1>
-							<h2 class="to-animate">Uma Equipe de Robótica da <a href="http://firstinspires.org">FIRST</a> <br>Florianópolis, Santa Catarina, Brasil</h2>
+							<h2 class="to-animate">Uma Equipe de Robótica da <a target="_blank" href="http://firstinspires.org">FIRST</a> <br>Florianópolis, Santa Catarina,
+								Brasil
+							</h2>
 						</div>
 					</div>
 				</div>
@@ -274,7 +276,8 @@
 						<i class="fh5co-intro-icon icon-bulb"></i>
 						<h2>Formar</h2>
 						<p>Temos como valores a busca por excelência, a formação e aprimoramento pessoal e profissional de maneira contínua e
-							integrada</p>
+							integrada
+						</p>
 					</div>
 				</div>
 				<div class="fh5co-block to-animate" style="background-image: url(mainpage/images/img_8.jpg);">
@@ -285,7 +288,7 @@
 						<h2>Competir</h2>
 						<p>Buscamos participar de competições internacionais da FIRST e representar nosso estado e país na Maior Competição de
 							Robótica do Mundo</p>
-						<p><a href="http://firstinspires.org" class="btn btn-primary">Saiba mais</a></p>
+						<p><a target="_blank" href="http://firstinspires.org" class="btn btn-primary">Saiba mais</a></p>
 					</div>
 				</div>
 				<div class="fh5co-block to-animate" style="background-image: url(mainpage/images/img_10.jpg);">
@@ -320,16 +323,43 @@
 			</div>
 			<div class="row row-bottom-padded-lg">
 				<div align="center" class="col-md-4 col-sm-3 col-xxs-12">
-					<a href="mainpage/images/projects/cineclube5800.jpg" class="fh5co-project-item image-popup to-animate">
+					<a href="mainpage/images/projects/cineclube5800.jpg" class="fh5co-project-item to-animate" data-toggle="modal" data-target="#ModalCienciaCultura">
 						<img src="mainpage/images/projects/pipoca2.jpg" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
-						<h2>Ciência e Cultura</h2>
-						<span>Eventos</span>
+							<h2>Ciência e Cultura</h2>
+							<span>Eventos</span>
 						</div>
 					</a>
 				</div>
+				<!-- Modal -->
+				<div class="modal fade" id="ModalCienciaCultura" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Ciência e Cultura</h4>
+							</div>
+							<div align="justify" class="modal-body">
+								<p>
+									<font color="black">Incentivamos a participação em eventos que envolvam os conceitos
+										<a target="_blank" href="http://stemtosteam.org/">
+											<font color="blue">STEAM</font>
+										</a>
+										(Ciência, Tecnologia, Engenharia, Artes e Matemática), como o
+										<a target="_blank" href="http://www.ifsc.edu.br/noticia-extensao/6415-mostra-de-arte-e-cultura-didascalico-do-ifsc-chega-a-18-campus">
+											<font color="blue">Didascálico</font>
+										</a>,
+										<a target="_blank" href="http://florianopolis.ifsc.edu.br/index.php?option=com_content&view=article&id=1625:compartilharte-cinco-dias-de-atividades-culturais-no-campus-florianopolis&catid=44:noticias&Itemid=134">
+											<font color="blue">CompartilhARTE</font>
+										</a>, entre outros</font>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END Modal -->
 				<div align="center" class="col-lg-8">
-					<a href="mainpage/images/projects/orlando-team.JPG" class="fh5co-project-item image-popup to-animate">
+					<a href="mainpage/images/projects/orlando-team.JPG" class="fh5co-project-item to-animate" data-toggle="modal" data-target="#ModalFRC">
 						<img src="mainpage/images/projects/orlando-team.JPG" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>FIRST Robotics Competition (FRC)</h2>
@@ -337,9 +367,30 @@
 						</div>
 					</a>
 				</div>
+				<!-- Modal -->
+				<div class="modal fade" id="ModalFRC" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">FIRST Robotics Competition (FRC)</h4>
+							</div>
+							<div align="justify" class="modal-body">
+								<p>
+									<font color="black">A
+										<a target="_blank" href="https://www.firstinspires.org/robotics/frc">
+											<font color="blue">FRC</font>
+										</a> é uma competição internacional que visa promover jovens nas áreas de Ciência e Tecnologia. Possui Regionais espalhadas
+										em diversos países, como EUA, China, Israel, Austrália e México</font>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END Modal -->
 
 				<div align="center" class="col-lg-8">
-					<a href="mainpage/images/work_6.jpg" class="fh5co-project-item image-popup to-animate">
+					<a href="mainpage/images/work_6.jpg" class="fh5co-project-item to-animate" data-toggle="modal" data-target="#ModalAprendizado">
 						<img src="mainpage/images/projects/plonge-robo.JPG" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>Projetos em Robótica</h2>
@@ -348,8 +399,30 @@
 					</a>
 				</div>
 
+				<!-- Modal -->
+				<div class="modal fade" id="ModalAprendizado" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Aprendizado e Projetos em Robótica</h4>
+							</div>
+							<div align="justify" class="modal-body">
+								<p>
+									<font color="black">Realizamos projetos em robótica, visando o aprendizado de todos os integrantes. Nossa equipe é composta apenas por
+										(até mesmo os mentores). Empregamos as técnicas pedagógicas de
+										<a target="_blank" href="http://www2.unifesp.br/centros/cedess/pbl/">
+											<font color="blue">Aprendizado Baseado em Problemas (PBL)</font>
+										</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END Modal -->
+
 				<div align="center" class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="mainpage/images/projects/harley-crianca.jpg" class="fh5co-project-item image-popup to-animate">
+					<a href="mainpage/images/projects/harley-crianca.jpg" class="fh5co-project-item to-animate" data-toggle="modal" data-target="#ModalApresentacoes">
 						<img src="mainpage/images/projects/harley-5800.jpg" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>Apresentações da Equipe e Robôs</h2>
@@ -358,8 +431,27 @@
 					</a>
 				</div>
 
+				<!-- Modal -->
+				<div class="modal fade" id="ModalApresentacoes" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Apresentações da Equipe e Robôs</h4>
+							</div>
+							<div align="justify" class="modal-body">
+								<p>Realizamos apresentações para o público, sempre que possível, mostrando nosso trabalho e funcionalidades dos robôs.
+									Assim, são desenvolvidas habilidades de comunicação dos integrantes, além de atividades de extensão e contato com
+									a comunidade, e estabelecimento de parcerias.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END Modal -->
+
 				<div align="center" class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="mainpage/images/projects/edsoul-lauro.jpg" class="fh5co-project-item image-popup to-animate">
+					<a href="mainpage/images/projects/edsoul-lauro.jpg" class="fh5co-project-item to-animate" data-toggle="modal" data-target="#ModalEntrevistas">
 						<img src="mainpage/images/projects/edsoul-reportagem2.png" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>Entrevistas e Divulgação</h2>
@@ -368,8 +460,30 @@
 					</a>
 				</div>
 
+				<!-- Modal -->
+				<div class="modal fade" id="ModalEntrevistas" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Entrevistas e Divulgação</h4>
+							</div>
+							<div align="justify" class="modal-body">
+								<p>Buscamos expandir a divulgação dos valores da FIRST, de nossa equipe, tão como a conquista de novos parceiros e patrocinadores
+									por meio de entrevistas e reportagens sobre nosso trabalho. Confira algumas destas no nosso canal no
+									<a target="_blank"
+									 href="https://www.youtube.com/channel/UCAnewK-DV-rgF4bJnpuJH1Q">
+										<font color="blue">Youtube</font>
+									</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END Modal -->
+
 				<div align="center" class="col-md-4 col-sm-2 col-xxs-12">
-					<a href="mainpage/images/work_6.jpg" class="fh5co-project-item image-popup to-animate">
+					<a href="mainpage/images/work_6.jpg" class="fh5co-project-item to-animate" data-toggle="modal" data-target="#ModalTutoriais">
 						<img src="mainpage/images/projects/foreground-eletroeletronica-slides.png" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>Materiais de Ensino e Tutoriais</h2>
@@ -378,18 +492,58 @@
 					</a>
 				</div>
 
+				<!-- Modal -->
+				<div class="modal fade" id="ModalTutoriais" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Materiais de Ensino e Tutoriais</h4>
+							</div>
+							<div align="justify" class="modal-body">
+								<p>Buscamos compartilhar o conhecimento não apenas internamente entre nossos integrantes, mas também com a comunidade
+									e quaisquer interessados em saber mais sobre cada uma de nossas áreas:
+									<a target="_blank" href="https://mi5800.wordpress.com/tag/slides/">
+										<font color="blue">Eletrônica, Programação, Marketing e Mecânica</font>
+									</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END Modal -->
+
 				<div align="center" class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="mainpage/images/work_4.jpg" class="fh5co-project-item image-popup to-animate">
+					<a href="mainpage/images/work_4.jpg" class="fh5co-project-item to-animate" data-toggle="modal" data-target="#ModalFunding">
 						<img src="mainpage/images/projects/torneio-lol.jpg" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
-						<h2>Torneio de Games e Crowdfunding</h2>
+						<h2>Torneios de Games e Crowdfunding</h2>
 						<span>Eventos</span>
 						</div>
 					</a>
 				</div>
 
+				<!-- Modal -->
+				<div class="modal fade" id="ModalFunding" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Torneios de Games e Crowdfunding</h4>
+							</div>
+							<div align="justify" class="modal-body">
+								<p>Em relação à arrecadação de fundos para cobertura de gastos em viagem às competições, realizamos campanhas de financiamento
+									coletivo (crowdfunding) para atingir uma meta de valor mínimo. De mesmo modo, proporcionamos a interação e entretenimento
+									na realização de torneio de games (League of Legends - LoL), com premiação aos vencedores.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END Modal -->
+
 				<div align="center" class="col-md-4 col-sm-6 col-xxs-12">
-					<a href="mainpage/images/work_5.jpg" class="fh5co-project-item image-popup to-animate">
+					<a href="mainpage/images/work_5.jpg" class="fh5co-project-item to-animate" data-toggle="modal" data-target="#ModalEventos">
 						<img src="mainpage/images/projects/almoco2.JPG" alt="Image" class="img-responsive">
 						<div class="fh5co-text">
 						<h2>Almoços e Encontros</h2>
@@ -398,13 +552,31 @@
 					</a>
 				</div>
 
-
+				<!-- Modal -->
+				<div class="modal fade" id="ModalEventos" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Almoços e Eventos</h4>
+							</div>
+							<div align="justify" class="modal-body">
+								<p>Para arrecadar fundos, reunir e celebrar nossas conquistas com os amigos, família e público em geral, realizamos
+									eventos de almoço, geralmente com as refeições cedidas por restaurantes apoiadores. Aproveitamos a oportunidade,
+									também, para apresentar o robô da temporada.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END Modal -->
 
 				<div class="clearfix visible-sm-block"></div>
 			</div>
 			<div class="row">
 				<div class="col-md-12 text-center to-animate">
-					<p>* Projetos em andamento</p>
+					<p>
+						<font color="white">* Projetos em andamento</font>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -427,7 +599,7 @@
 					<div align="justify" class="box-testimony">
 						<blockquote class="to-animate-2">
 							<p>&ldquo;Resolvemos apoiar a equipe pois acreditamos que através destas iniciativas podem ser descobertos talentos que
-								poderão fazer a diferença para a humanidade. Este tipo de experiência enriquece as pessoas na vida pessoal e trás
+								poderão fazer a diferença para a humanidade. Este tipo de experiência enriquece as pessoas na vida pessoal e traz
 								muitos benefícios para a vida profissional&rdquo;</p>
 						</blockquote>
 						<div class="author to-animate">
@@ -441,7 +613,8 @@
 				<div class="col-md-4">
 					<div align="justify" class="box-testimony">
 						<blockquote class="to-animate-2">
-							<p>&ldquo;O reconhecimento que eles receberam, que a instituição recebe e que o município de Florianópolis está recebendo, por conta das conquistas nesta competição, é inimaginável&rdquo;</p>
+							<p>&ldquo;O reconhecimento que eles receberam, que a instituição recebe e que o município de Florianópolis está recebendo,
+								por conta das conquistas nesta competição, é inimaginável&rdquo;</p>
 						</blockquote>
 						<div class="author to-animate">
 							<figure><img src="mainpage/images/petry.jpg" alt="Person"></figure>
@@ -512,7 +685,7 @@
 				<i class="icon to-animate-2 icon-monitor"></i>
 				<h3>Programação</h3>
 				<p>System.out.println("A parte da equipe responsável por desenvolver o código que faz o robô enxergar, ser controlado, tomar
-					decisões, andar sozinho, escalar e realizar as tarefas nas partidas"); <br> Linguagem de programação: <b>Java</b></p>
+					decisões, andar sozinho, escalar e realizar as tarefas necessárias nas partidas"); <br> Linguagem de programação: <b>Java</b></p>
 			</div>
 
 		</div>
@@ -659,7 +832,7 @@
 						</li>
 						<li><i class="icon-phone"></i> +55 (48) 984253457</li>
 						<li><i class="icon-envelope"></i>magicislandbrasil@gmail.com</li>
-						<li><i class="icon-globe"></i> <a href="http://mi5800.wordpress.com" target="_blank">Magic Island Robotics Website</a><br>
+						<li><i class="icon-globe"></i> <a href="http://mi5800.wordpress.com/blog" target="_blank">Magic Island Robotics Blog</a><br>
 							<a href="http://facebook.com/mi5800">Magic Island Facebook</a>
 						</li>
 					</ul>
@@ -685,12 +858,29 @@
 							<textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Mensagem"></textarea>
 						</div>
 						<div class="form-group ">
-							<input class="btn btn-primary btn-lg" value="Enviar" type="submit">
+							<input class="btn btn-primary btn-lg" value="Send" type="submit" data-toggle="modal" data-target="ModalContato">
 						</div>
 					</form>
 				</div>
 
 			</div>
+
+			<!-- Modal -->
+				<div class="modal fade" id="ModalContato" role="dialog">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Contato</h4>
+							</div>
+							<div align="justify" class="modal-body">
+								<p>
+									<font color="red">Desculpe, mas nosso formulário de contato está indisponível no momento...<br>Tente outras formas de nos contactar</font></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END Modal -->
 
 		</div>
 		</div>
@@ -746,6 +936,7 @@
 	<!-- Google Map -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 	<script src="mainpage/js/google_map.js"></script>
+
 
 	<!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
 	<script src="mainpage/js/jquery.style.switcher.js"></script>
