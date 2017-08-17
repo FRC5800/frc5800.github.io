@@ -1,5 +1,6 @@
 # FRC 5800 Página Web no Github
 
+> "A vida é tão curta. Por que gastar um único dia dela em algo que não importa, por que não tentar fazer algo Grande?" - **Dean Kamen**
 
 Repositório para criação de página da equipe **FRC 5800 Magic Island Robotics no Github**. Página de apresentação, animações em css, javascript, blog, página de contato e formulário. Site responsivo.
 
