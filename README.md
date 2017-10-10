@@ -18,6 +18,8 @@ Repositório para criação de página da equipe **FRC 5800 Magic Island Robotic
 - ~~Página em Inglês~~
 - Modal (consertar)
 - Números interessantes reais (funções get, facebook api, etc.)
+- Informações sobre participações prévias (Regionais, prêmios)
+- Mapas equipes Regional NYC 2018
 - Testes, análise em plataformas desktop e mobile
 - Lançar Website
 
@@ -27,13 +29,18 @@ Linguagens de programação e marcação: HTML, CSS, JavaScript, PHP, Markdown.
 
 ## Páginas oficiais:
 
-- [Magic Island Robotics Website](http://mi5800.wordpress.com)
-- [FRC 5800 Weebly](http://mi5800.weebly.com)
-- [Facebook MI 5800](http://facebook.com/mi5800)
+- [FRC 5800 Website](http://frc5800.github.io)
+- [Magic Island Robotics Blog](http://mi5800.wordpress.com)
+- [Facebook FRC 5800](http://facebook.com/frc800)
 - [Instagram FRC 5800](http://instagram.com/frc5800)
-- Snapchat: @mi5800
+- [FRC5800 LinkedIn](https://www.linkedin.com/company/frc5800)
 
-Versão Beta (0.2)
+## Referências
+
+- [Marksheet](http://marksheet.io/)
+- [StackOverflow](https://stackoverflow.com)
+
+Versão Beta (0.5)
 
 # FRC 5800 Github Webpage
 
@@ -53,6 +60,8 @@ Repository for **FRC 5800 Magic Island Robotics Team Webpage on Github**. Presen
 - Contact form (php, cgi or asp)
 - ~~English page~~
 - Real interesting numbers (get function, facebook api, etc.)
+- Google Maps of 2018 NYC Regional FRC Teams
+- Info about previous participations (Regionals, awards)
 - Tests, analysis on desktop and mobile platforms
 - Launch
 
@@ -62,12 +71,17 @@ Programming and markup languages: HTML, CSS, JavaScript, PHP, Markdown
 
 ## Official Pages:
 
-- [Magic Island Robotics Website](http://mi5800.wordpress.com)
-- [FRC 5800 Weebly](http://mi5800.weebly.com)
-- [Facebook MI 5800](http://facebook.com/mi5800)
+- [FRC 5800 Website](http://frc5800.github.io)
+- [Magic Island Robotics Blog](http://mi5800.wordpress.com)
+- [Facebook FRC 5800](http://facebook.com/frc800)
 - [Instagram FRC 5800](http://instagram.com/frc5800)
-- Snapchat: @mi5800
+- [FRC5800 LinkedIn](https://www.linkedin.com/company/frc5800)
 
-Beta version (0.2)
+## References
+
+- [Marksheet](http://marksheet.io/)
+- [StackOverflow](https://stackoverflow.com)
+
+Beta version (0.5)
 
 ![](https://mi5800.files.wordpress.com/2016/12/mi5800-logo-2017_semfundo.png?w=250)      ![](https://www.firstinspires.org/sites/default/files/first-logo-200px.png)
