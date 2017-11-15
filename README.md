@@ -16,14 +16,15 @@ Repositório para criação de página da equipe **FRC 5800 Magic Island Robotic
 - Consertar ícone de mapa
 - Formulário de Contato (php, cgi ou asp)
 - ~~Página em Inglês~~
-- Modal (consertar)
+- ~~Modal (consertar!)~~
 - Números interessantes reais (funções get, facebook api, etc.)
 - Informações sobre participações prévias (Regionais, prêmios)
-- Mapas equipes Regional NYC 2018
+- Embutir [Mapas equipes Regional NYC 2018](https://www.google.com/maps/d/viewer?usp=sharing&mid=1IPySo2PAfA_bd0ccetet8sRC77U)
+- Embutir calendário ([Google Agenda](https://calendar.google.com/calendar/embed?src=sb4lps96b539gp6bb0cnknumak%40group.calendar.google.com&ctz=America/Sao_Paulo))
 - Testes, análise em plataformas desktop e mobile
 - Lançar Website
 
-Desenvolvido com MS Visual Code e templates de [FreeHTML5.co](http://freehtml5.co).
+Desenvolvido com [Microsoft Visual Code](https://code.visualstudio.com/) e [Atom](https://atom.io/) e templates de [FreeHTML5.co](http://freehtml5.co).
 
 Linguagens de programação e marcação: HTML, CSS, JavaScript, PHP, Markdown.
 
@@ -56,16 +57,17 @@ Repository for **FRC 5800 Magic Island Robotics Team Webpage on Github**. Presen
 - ~~Text and image on Work~~
 - ~~Sponsors page~~
 - Fix map icon
-- Fix Modal
+- ~~Fix Modal (!)~~
 - Contact form (php, cgi or asp)
 - ~~English page~~
 - Real interesting numbers (get function, facebook api, etc.)
-- Google Maps of 2018 NYC Regional FRC Teams
+- Embed [Google Maps of 2018 NYC Regional FRC Teams](https://www.google.com/maps/d/viewer?usp=sharing&mid=1IPySo2PAfA_bd0ccetet8sRC77U)
 - Info about previous participations (Regionals, awards)
+- Embedded Calendar ([Google Agenda](https://calendar.google.com/calendar/embed?src=sb4lps96b539gp6bb0cnknumak%40group.calendar.google.com&ctz=America/Sao_Paulo))
 - Tests, analysis on desktop and mobile platforms
 - Launch
 
-Developed on Microsoft Visual Code. Templates from [FreeHTML5.co](http://freehtml5.co).
+Developed on [Microsoft Visual Code](https://code.visualstudio.com/) and [Atom](https://atom.io/). Templates from [FreeHTML5.co](http://freehtml5.co).
 
 Programming and markup languages: HTML, CSS, JavaScript, PHP, Markdown
 
