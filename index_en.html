@@ -11,9 +11,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>FRC 5800 &mdash; Magic Island Robotics Team</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+    <meta name="description" content="Magic Island Robotics Team Website" />
     <meta name="keywords" content="FRC 5800, Magic Island, Robotics, team, FIRST, Competition" />
     <meta name="author" content="FRC 5800" />
+    <meta name="referrer" content="origin">
 
     <!-- 
 	//////////////////////////////////////////////////////
@@ -827,124 +828,121 @@
                 </div>
 
                 <div class="col-md-6 to-animate">
-                    <h3>Contact</h3>
+                    <h3>Contato</h3>
                     <div class="form-group ">
-                        <label for="name" class="sr-only">Name</label>
-                        <input id="name" class="form-control" placeholder="Name" type="text">
-                    </div>
-                    <div class="form-group ">
-                        <label for="email" class="sr-only">Email</label>
-                        <input id="email" class="form-control" placeholder="Email" type="email">
-                    </div>
-                    <div class="form-group ">
-                        <label for="phone" class="sr-only">Phone</label>
-                        <input id="phone" class="form-control" placeholder="Phone" type="text">
-                    </div>
-                    <div class="form-group ">
-                        <label for="message" class="sr-only">Message</label>
-                        <textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
-                    </div>
-                    <div class="form-group ">
-                        <input class="btn btn-primary btn-lg" value="Send" type="submit" data-toggle="modal" data-target="#ModalContato">
-                    </div>
-                </div>
-            </div>
-            <!-- Modal -->
-            <div class="modal fade" id="ModalContato" role="dialog">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Contact</h4>
+                        <form method="POST" action="http://formspree.io/magicislandbrasil@gmail.com">
+                            <label for="name" class="sr-only">Name</label>
+                            <input id="name" class="form-control" placeholder="Nome" type="text" name="Nome">
                         </div>
-                        <div align="justify" class="modal-body">
-                            <p>
-                                <font color="red">Sorry, but the contact form is not available at the moment...<br>Try other ways to reach
-                                us</font>
-                            </p>
+                        <div class="form-group ">
+                            <label for="email" class="sr-only">Email</label>
+                            <input id="email" class="form-control" placeholder="Email" type="email" name="Email">
+                        </div>
+                        <div class="form-group ">
+                            <label for="phone" class="sr-only">Phone</label>
+                            <input id="phone" class="form-control" placeholder="Fone" type="text" name="Telefone">
+                        </div>
+                        <div class="form-group ">
+                            <label for="message" class="sr-only">Message</label>
+                            <textarea name="Mensagem" id="message" cols="30" rows="5" class="form-control" placeholder="Mensagem"></textarea>
+                        </div>
+                        <div class="form-group ">
+                            <input class="btn btn-primary btn-lg" value="Enviar" type="submit">
+                            <input type="hidden" name="_next" value="https://frc5800.github.io/members"/>
+                            <input type="text" name="_gotcha" style="display:none"/>
+                        </div>
+                    </form>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="ModalContato" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Contact</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- END Modal -->
+                <!-- END Modal -->
 
+            </div>
         </div>
-    </div>
-    <div id="map" class="to-animate"></div>
-</section>
+        <div id="map" class="to-animate"></div>
+    </section>
 
 
-<footer id="footer" role="contentinfo">
-    <a href="#" class="gotop js-gotop"><i class="icon-arrow-up2"></i></a>
-    <div class="container">
-        <div class="">
-            <div class="col-md-12 text-center">
-                <p>FRC 5800 Magic Island Robotics Team</p>
-                <p> &copy; FRC 5800. All Rights Reserved. <br>Website by <a href="http://gsimas.github.io">Gustavo Simas</a>
-                    <br>Template: Elate <a href="http://freehtml5.co/" target="_blank">FreeHTML5</a></p>
-                </div>
-            </div>
-            <div class="row">
+    <footer id="footer" role="contentinfo">
+        <a href="#" class="gotop js-gotop"><i class="icon-arrow-up2"></i></a>
+        <div class="container">
+            <div class="">
                 <div class="col-md-12 text-center">
-                    <ul class="social social-circle">
-                        <li><a href="http://instagram.com/frc5800"><i class="icon-instagram"></i></a></li>
-                        <li><a href="http://facebook.com/frc5800"><i class="icon-facebook"></i></a></li>
-                        <li><a href="https://www.youtube.com/channel/UCAnewK-DV-rgF4bJnpuJH1Q"><i class="icon-youtube"></i></a></li>
-                        <li><a href="http://github.com/frc5800"><i class="icon-github"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/frc5800"><i class="icon-linkedin"></i></a></li>
-                        <li><a href="index.html"><i class="icon-language"></i></a></li>
-                    </ul>
+                    <p>FRC 5800 Magic Island Robotics Team</p>
+                    <p> &copy; FRC 5800. All Rights Reserved. <br>Website by <a href="http://gsimas.github.io">Gustavo Simas</a>
+                        <br>Template: Elate <a href="http://freehtml5.co/" target="_blank">FreeHTML5</a></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <ul class="social social-circle">
+                            <li><a href="http://instagram.com/frc5800"><i class="icon-instagram"></i></a></li>
+                            <li><a href="http://facebook.com/frc5800"><i class="icon-facebook"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCAnewK-DV-rgF4bJnpuJH1Q"><i class="icon-youtube"></i></a></li>
+                            <li><a href="http://github.com/frc5800"><i class="icon-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/frc5800"><i class="icon-linkedin"></i></a></li>
+                            <li><a href="index.html"><i class="icon-language"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
 
-    <!-- For demo purposes Only ( You may delete this anytime :-) -->
-    <!-- End demo purposes only -->
+        <!-- For demo purposes Only ( You may delete this anytime :-) -->
+        <!-- End demo purposes only -->
 
 
-    <!-- jQuery -->
-    <script src="mainpage/js/jquery.min.js"></script>
-    <!-- jQuery Easing -->
-    <script src="mainpage/js/jquery.easing.1.3.js"></script>
-    <!-- Bootstrap -->
-    <script src="mainpage/js/bootstrap.min.js"></script>
-    <!-- Waypoints -->
-    <script src="mainpage/js/jquery.waypoints.min.js"></script>
-    <!-- Stellar Parallax -->
-    <script src="mainpage/js/jquery.stellar.min.js"></script>
-    <!-- Counter -->
-    <script src="mainpage/js/jquery.countTo.js"></script>
-    <!-- Magnific Popup -->
-    <script src="mainpage/js/jquery.magnific-popup.min.js"></script>
-    <script src="mainpage/js/magnific-popup-options.js"></script>
-    <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-    <script src="mainpage/js/google_map.js"></script>
+        <!-- jQuery -->
+        <script src="mainpage/js/jquery.min.js"></script>
+        <!-- jQuery Easing -->
+        <script src="mainpage/js/jquery.easing.1.3.js"></script>
+        <!-- Bootstrap -->
+        <script src="mainpage/js/bootstrap.min.js"></script>
+        <!-- Waypoints -->
+        <script src="mainpage/js/jquery.waypoints.min.js"></script>
+        <!-- Stellar Parallax -->
+        <script src="mainpage/js/jquery.stellar.min.js"></script>
+        <!-- Counter -->
+        <script src="mainpage/js/jquery.countTo.js"></script>
+        <!-- Magnific Popup -->
+        <script src="mainpage/js/jquery.magnific-popup.min.js"></script>
+        <script src="mainpage/js/magnific-popup-options.js"></script>
+        <!-- Google Map -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+        <script src="mainpage/js/google_map.js"></script>
 
-    <!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
-    <script src="mainpage/js/jquery.style.switcher.js"></script>
-    <script>
-        $(function () {
-            $('#colour-variations ul').styleSwitcher({
-                defaultThemeId: 'theme-switch',
-                hasPreview: false,
-                cookie: {
-                    expires: 30,
-                    isManagingLoad: true
-                }
+        <!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
+        <script src="mainpage/js/jquery.style.switcher.js"></script>
+        <script>
+            $(function () {
+                $('#colour-variations ul').styleSwitcher({
+                    defaultThemeId: 'theme-switch',
+                    hasPreview: false,
+                    cookie: {
+                        expires: 30,
+                        isManagingLoad: true
+                    }
+                });
+                $('.option-toggle').click(function () {
+                    $('#colour-variations').toggleClass('sleep');
+                });
             });
-            $('.option-toggle').click(function () {
-                $('#colour-variations').toggleClass('sleep');
-            });
-        });
-    </script>
-    <!-- End demo purposes only -->
+        </script>
+        <!-- End demo purposes only -->
 
-    <!-- Main JS (Do not remove) -->
-    <script src="mainpage/js/main.js"></script>
+        <!-- Main JS (Do not remove) -->
+        <script src="mainpage/js/main.js"></script>
 
-</body>
+    </body>
 
-</html>
+    </html>
