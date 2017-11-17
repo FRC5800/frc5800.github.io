@@ -1,6 +1,6 @@
 # FRC 5800 Página Web no Github
 
-> "A vida é tão curta. Por que gastar um único dia dela em algo que não importa, por que não tentar fazer algo Grande?" - **Dean Kamen**
+> "A vida é tão curta. Por que gastar um único dia dela em algo que não importa, por que não tentar fazer algo Grande?" - **Dean Kamen** Criador da [FIRST](http://firstinspires.org)
 
 Repositório para criação de página da equipe **FRC 5800 Magic Island Robotics no Github**. Página de apresentação, animações em css, javascript, blog, página de contato e formulário. Site responsivo.
 
@@ -14,14 +14,14 @@ Repositório para criação de página da equipe **FRC 5800 Magic Island Robotic
 - ~~Texto e imagens atividades~~
 - ~~Página de Patrocinadores~~
 - Consertar ícone de mapa
-- Formulário de Contato (php, cgi ou asp)
+- ~~Formulário de Contato (php, cgi ou asp FORMSPREE)~~
 - ~~Página em Inglês~~
 - ~~Modal (consertar!)~~
 - Números interessantes reais (funções get, facebook api, etc.)
 - Informações sobre participações prévias (Regionais, prêmios)
 - Embutir [Mapas equipes Regional NYC 2018](https://www.google.com/maps/d/viewer?usp=sharing&mid=1IPySo2PAfA_bd0ccetet8sRC77U)
 - Embutir calendário ([Google Agenda](https://calendar.google.com/calendar/embed?src=sb4lps96b539gp6bb0cnknumak%40group.calendar.google.com&ctz=America/Sao_Paulo))
-- Testes, análise em plataformas desktop e mobile
+- ~~Testes, análise em plataformas desktop e mobile~~
 - Lançar Website
 
 Desenvolvido com [Microsoft Visual Code](https://code.visualstudio.com/) e [Atom](https://atom.io/) e templates de [FreeHTML5.co](http://freehtml5.co).
@@ -40,10 +40,13 @@ Linguagens de programação e marcação: HTML, CSS, JavaScript, PHP, Markdown.
 
 - [Marksheet](http://marksheet.io/)
 - [StackOverflow](https://stackoverflow.com)
+- [Formspree](http://formspree.io)
 
-Versão Beta (0.5)
+Versão 1.0d
 
 # FRC 5800 Github Webpage
+
+> "Life is so short. Why waste a single day of it doing something that doesn't matter, that doesn't try to do something big?" - **Dean Kamen** [FIRST](http://firstinspires.org) Cofounder
 
 Repository for **FRC 5800 Magic Island Robotics Team Webpage on Github**. Presentation page, css animations, javascript codes, blog, contact page and form. Responsite website.
 
@@ -58,13 +61,13 @@ Repository for **FRC 5800 Magic Island Robotics Team Webpage on Github**. Presen
 - ~~Sponsors page~~
 - Fix map icon
 - ~~Fix Modal (!)~~
-- Contact form (php, cgi or asp)
+- ~~Contact form (php, cgi or asp, FORMSPREE)~~
 - ~~English page~~
 - Real interesting numbers (get function, facebook api, etc.)
 - Embed [Google Maps of 2018 NYC Regional FRC Teams](https://www.google.com/maps/d/viewer?usp=sharing&mid=1IPySo2PAfA_bd0ccetet8sRC77U)
 - Info about previous participations (Regionals, awards)
 - Embedded Calendar ([Google Agenda](https://calendar.google.com/calendar/embed?src=sb4lps96b539gp6bb0cnknumak%40group.calendar.google.com&ctz=America/Sao_Paulo))
-- Tests, analysis on desktop and mobile platforms
+- ~~Tests, analysis on desktop and mobile platforms~~
 - Launch
 
 Developed on [Microsoft Visual Code](https://code.visualstudio.com/) and [Atom](https://atom.io/). Templates from [FreeHTML5.co](http://freehtml5.co).
@@ -84,6 +87,7 @@ Programming and markup languages: HTML, CSS, JavaScript, PHP, Markdown
 - [Marksheet](http://marksheet.io/)
 - [StackOverflow](https://stackoverflow.com)
 
-Beta version (0.5)
+Version 1.0
 
-![](https://mi5800.files.wordpress.com/2016/12/mi5800-logo-2017_semfundo.png?w=250)      ![](https://www.firstinspires.org/sites/default/files/first-logo-200px.png)
+![](https://mi5800.files.wordpress.com/2016/12/mi5800-logo-2017_semfundo.png?w=250)    
+![](https://www.firstinspires.org/sites/default/files/first-logo-200px.png)
