@@ -17,6 +17,7 @@ Repositório para criação de página da equipe **FRC 5800 Magic Island Robotic
 - ~~Formulário de Contato (php, cgi ou asp FORMSPREE)~~
 - ~~Página em Inglês~~
 - ~~Modal (consertar!)~~
+- Adicionar fotos de novos integrantes
 - Números interessantes reais (funções get, facebook api, etc.)
 - Informações sobre participações prévias (Regionais, prêmios)
 - Embutir [Mapas equipes Regional NYC 2018](https://www.google.com/maps/d/viewer?usp=sharing&mid=1IPySo2PAfA_bd0ccetet8sRC77U)
@@ -63,6 +64,7 @@ Repository for **FRC 5800 Magic Island Robotics Team Webpage on Github**. Presen
 - ~~Fix Modal (!)~~
 - ~~Contact form (php, cgi or asp, FORMSPREE)~~
 - ~~English page~~
+- New members profile pictures
 - Real interesting numbers (get function, facebook api, etc.)
 - Embed [Google Maps of 2018 NYC Regional FRC Teams](https://www.google.com/maps/d/viewer?usp=sharing&mid=1IPySo2PAfA_bd0ccetet8sRC77U)
 - Info about previous participations (Regionals, awards)
