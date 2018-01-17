@@ -17,7 +17,7 @@ Repositório para criação de página da equipe **FRC 5800 Magic Island Robotic
 - ~~Formulário de Contato (php, cgi ou asp FORMSPREE)~~
 - ~~Página em Inglês~~
 - ~~Modal (consertar!)~~
-- Adicionar fotos de novos integrantes
+- ~~Adicionar fotos de novos integrantes~~
 - Números interessantes reais (funções get, facebook api, etc.)
 - Informações sobre participações prévias (Regionais, prêmios)
 - Embutir [Mapas equipes Regional NYC 2018](https://www.google.com/maps/d/viewer?usp=sharing&mid=1IPySo2PAfA_bd0ccetet8sRC77U)
@@ -32,10 +32,11 @@ Linguagens de programação e marcação: HTML, CSS, JavaScript, PHP, Markdown.
 ## Páginas oficiais:
 
 - [FRC 5800 Website](http://frc5800.github.io)
-- [Magic Island Robotics Blog](http://mi5800.wordpress.com)
+- [Magic Island Robotics Blog](http://frc5800.wordpress.com)
 - [Facebook FRC 5800](http://facebook.com/frc800)
 - [Instagram FRC 5800](http://instagram.com/frc5800)
-- [FRC5800 LinkedIn](https://www.linkedin.com/company/frc5800)
+- [Twitter FRC 5800](http://twitter.com/frc5800
+- [LinkedIn FRC 5800](https://www.linkedin.com/company/frc5800)
 
 ## Referências
 
@@ -43,7 +44,7 @@ Linguagens de programação e marcação: HTML, CSS, JavaScript, PHP, Markdown.
 - [StackOverflow](https://stackoverflow.com)
 - [Formspree](http://formspree.io)
 
-Versão 1.0d
+Versão 1.0
 
 # FRC 5800 Github Webpage
 
@@ -64,7 +65,7 @@ Repository for **FRC 5800 Magic Island Robotics Team Webpage on Github**. Presen
 - ~~Fix Modal (!)~~
 - ~~Contact form (php, cgi or asp, FORMSPREE)~~
 - ~~English page~~
-- New members profile pictures
+- ~~New members profile pictures~~
 - Real interesting numbers (get function, facebook api, etc.)
 - Embed [Google Maps of 2018 NYC Regional FRC Teams](https://www.google.com/maps/d/viewer?usp=sharing&mid=1IPySo2PAfA_bd0ccetet8sRC77U)
 - Info about previous participations (Regionals, awards)
@@ -79,10 +80,11 @@ Programming and markup languages: HTML, CSS, JavaScript, PHP, Markdown
 ## Official Pages:
 
 - [FRC 5800 Website](http://frc5800.github.io)
-- [Magic Island Robotics Blog](http://mi5800.wordpress.com)
+- [Magic Island Robotics Blog](http://frc5800.wordpress.com)
 - [Facebook FRC 5800](http://facebook.com/frc800)
 - [Instagram FRC 5800](http://instagram.com/frc5800)
-- [FRC5800 LinkedIn](https://www.linkedin.com/company/frc5800)
+- [Twitter FRC 5800](http://twitter.com/frc5800
+- [LinkedIn FRC 5800](https://www.linkedin.com/company/frc5800)
 
 ## References
 
