@@ -32,10 +32,9 @@ Linguagens de programação e marcação: HTML, CSS, JavaScript, PHP, Markdown.
 ## Páginas oficiais:
 
 - [FRC 5800 Website](http://frc5800.github.io)
-- [Magic Island Robotics Blog](http://frc5800.wordpress.com)
 - [Facebook FRC 5800](http://facebook.com/frc800)
 - [Instagram FRC 5800](http://instagram.com/frc5800)
-- [Twitter FRC 5800](http://twitter.com/frc5800
+- [Twitter FRC 5800](http://twitter.com/frc5800)
 - [LinkedIn FRC 5800](https://www.linkedin.com/company/frc5800)
 
 ## Referências
@@ -80,10 +79,9 @@ Programming and markup languages: HTML, CSS, JavaScript, PHP, Markdown
 ## Official Pages:
 
 - [FRC 5800 Website](http://frc5800.github.io)
-- [Magic Island Robotics Blog](http://frc5800.wordpress.com)
 - [Facebook FRC 5800](http://facebook.com/frc800)
 - [Instagram FRC 5800](http://instagram.com/frc5800)
-- [Twitter FRC 5800](http://twitter.com/frc5800
+- [Twitter FRC 5800](http://twitter.com/frc5800)
 - [LinkedIn FRC 5800](https://www.linkedin.com/company/frc5800)
 
 ## References
